@@ -1,6 +1,18 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
+
 import logo from './logo.svg';
 import './App.css';
+
+//intellisense broken here
+
 
 function App() {
   return (
